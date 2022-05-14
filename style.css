@@ -1,0 +1,163 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+     width: 100%;
+     height: 100vh;
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cdn.discordapp.com/attachments/794608925261299733/966660248679096351/be57a6f3-2b88-485f-8c9e-3472716c4059.jpg);
+     background-position: center;
+     background-size: cover;
+     padding-left: 8%;
+     padding-right: 8%;
+     box-sizing: border-box;
+
+
+}
+.navbar{
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+     width: 300px;
+     cursor: pointer;
+     height: 250px;
+     padding-left: -500px;
+
+     
+
+}
+.menu-icon{
+     width: 30px;
+     cursor: pointer;
+     padding-left: 80px;
+     height: 30px;
+}
+nav{
+     flex: 1;
+     text-align: right;
+     
+
+
+}
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 20px;
+     
+}
+nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 50px;
+
+}
+.row{
+     display: flex;
+     height: 50%;
+     align-items: center;
+}
+.col{
+     flex-basis: 20%;
+padding-left: 5%;
+}
+h1{
+     color: #fff;
+     font-size:100px;
+}
+p{
+     color: #fff;
+     font-size: 11px;
+     line-height: 15px;
+
+}
+button{
+     width: 180px;
+     color: #000;
+     font-size: 12px;
+     padding: 12px 0;
+     background: #fff;
+     border: 0;
+     border-radius: 20px;
+     outline: none;
+     margin-top: 30px;
+}
+.card1 {
+     width: 200px;
+     height: 200px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     background-image: url(https://cdn.discordapp.com/attachments/794608925261299733/966604331463876650/49aa71e9-7e5c-454c-b6a5-7b4dfec2f848.jpg);
+     background-position: center;
+     background-size: cover;
+
+
+     
+
+
+
+}
+.card2 {
+     width: 200px;
+     height: 200px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     background-image: url(https://cdn.discordapp.com/attachments/794608925261299733/966606709516820520/WhatsApp_Image_2022-04-20_at_15.15.35.jpeg);
+     background-position: center;
+     background-size: cover;
+
+
+     
+
+
+
+}
+.card3 {
+     width: 200px;
+     height: 200px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     background-image: url(https://cdn.discordapp.com/attachments/794608925261299733/966620779179544616/WhatsApp_Image_2022-04-21_at_11.23.29.jpeg);
+     background-position: center;
+     background-size: cover;
+
+
+     
+
+
+
+}
+.card4 {
+     width: 200px;
+     height: 200px;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     background-image: url(https://cdn.discordapp.com/attachments/794608925261299733/966660249270489108/1d00fab4-ff29-4602-9275-0747c0c66368.jpg);
+     background-position: center;
+     background-size: cover;
+
+
+     
+
+
+
+}
